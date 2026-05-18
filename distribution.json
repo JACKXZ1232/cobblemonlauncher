@@ -1,0 +1,3565 @@
+{
+  "version": "1.0.0",
+  "rss": {
+    "title": "CobblemonMX Noticias",
+    "link": "https://tu-proyecto.vercel.app/",
+    "description": "Últimas actualizaciones",
+    "language": "es"
+  },
+  "discord": {
+    "clientId": "",
+    "smallImageKey": "",
+    "smallImageText": ""
+  },
+  "servers": [
+    {
+      "id": "cobblemonmx-1.21.1",
+      "name": "cobblemonmx (Minecraft 1.21.1)",
+      "description": "Cobblemonmx Running Minecraft 1.21.1 (Fabric v0.16.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "cobblemonmx.com",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "750df5b4576d305d2a51a37129f15905",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/versions/1.21.1-fabric-0.16.10/1.21.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.wispforest:accessories:1.1.0-beta.53+1.21.1@jar",
+          "name": "Accessories",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095802,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+            "MD5": "1f332447eadf66a07b33e641816fcd5e"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:21.0.56@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 773504,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/balm-fabric-1.21.1-21.0.56.jar",
+            "MD5": "38b7a4a058adde9328d48240effda68c"
+          }
+        },
+        {
+          "id": "com.catchrate:catchrate-display:2.8.20@jar",
+          "name": "Cobblemon Catch Rate Display",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 252773,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/catchrate-display-fabric-2.8.20.jar",
+            "MD5": "c286543082b4a1f15feae5080e6b52a9"
+          }
+        },
+        {
+          "id": "dev.lucaargolo:charta:1.2.5@jar",
+          "name": "Charta",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7415307,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/charta-fabric-1.21.1-1.2.5.jar",
+            "MD5": "b80b212a20ed27d2e2364d3be660a09f"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "party.extras.cobblemon:cobblemon_party_extras:1.8.15@jar",
+          "name": "Cobblemon Party Extras",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 394695,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/cobblemon_party_extras-fabric-1.8.15.jar",
+            "MD5": "571c3f037ef46bae2c7aac177e06fe57"
+          }
+        },
+        {
+          "id": "name.modid:cobblemon-battle-extras:1.13.45@jar",
+          "name": "Cobblemon Battle Extras",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1515972,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/cobblemon-battle-extras-fabric-1.13.45.jar",
+            "MD5": "dbf09923dc28a0339c5c5bb7eae9061d"
+          }
+        },
+        {
+          "id": "com.cobblemon.mod:cobblemon:1.7.3+1.21.1@jar",
+          "name": "Cobblemon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135801550,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/Cobblemon-fabric-1.7.3+1.21.1.jar",
+            "MD5": "1de64f280372ec94e4376976fb579d52"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mr_cobblemon_journeymounts:1.7.2@jar",
+          "name": "Cobblemon Journey Mounts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7368421,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/cobblemon-journey-mounts-1.7.2.jar",
+            "MD5": "2a4ad4c0c2574a53780070c65f8fbd50"
+          }
+        },
+        {
+          "id": "com.metacontent:cobblenav:2.2.5@jar",
+          "name": "Cobblenav",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 780131,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/cobblenav-fabric-2.2.5.jar",
+            "MD5": "f6f1a2fbba01767ec6eb235cc1334650"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.0.0@jar",
+          "name": "Custom NPCs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13040464,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/CustomNPCs-Unofficial-Fabric-1.21.1.20251129.jar",
+            "MD5": "a25fafef6ef2aff922cde1f71baa98a9"
+          }
+        },
+        {
+          "id": "com.tom:cpm:0.6.25a@jar",
+          "name": "Customizable Player Models",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2832867,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/CustomPlayerModels-Fabric-1.21-0.6.25a.jar",
+            "MD5": "6959229378a7e11eb3aab269102cc2b1"
+          }
+        },
+        {
+          "id": "eu.midnightdust:customsplashscreen:2.2.0@jar",
+          "name": "Custom Splash Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 660554,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/customsplashscreen-2.2.0.jar",
+            "MD5": "c05035d6d151259def5174d9713f8b68"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.9.5@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1560675,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/entityculling-fabric-1.9.5-mc1.21.1.jar",
+            "MD5": "fa490d1bdbb00c612dead5ab52b0b323"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.9+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425600,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/fabric-api-0.116.9+1.21.1.jar",
+            "MD5": "b7ce8a460c6c9d4538536730864dd818"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.9+kotlin.2.3.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7642216,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+            "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.8.1@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4522643,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+            "MD5": "8e396d8a4315d4d5db4fe742d8d4c0b2"
+          }
+        },
+        {
+          "id": "me.fallenbreath:fastipping:1.0.8@jar",
+          "name": "Fast IP Ping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 10373,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/fast-ip-ping-v1.0.8-mc1.21.1-fabric.jar",
+            "MD5": "783c9feeca71002d3ab1ed0fcce06051"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.0.3@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/ferritecore-7.0.3-fabric.jar",
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.1.6@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 633065,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+            "MD5": "eba1a7f9d9976e983a2b9eb5e915e087"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.21@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2365335,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/fzzy_config-0.7.6+1.21.jar",
+            "MD5": "dcedb9014b228c01941b2ef4f2743f19"
+          }
+        },
+        {
+          "id": "software.bernie:geckolib:4.8.4@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 653722,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/geckolib-fabric-1.21.1-4.8.4.jar",
+            "MD5": "0044e7b8b4d4096257031692f5995a2c"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.6.10+1.21.1@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342770,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/ImmediatelyFast-Fabric-1.6.10+1.21.1.jar",
+            "MD5": "15a2eafb373bf55d7db6b45971110825"
+          }
+        },
+        {
+          "id": "net.conczin:immersive_paintings:0.7.6@jar",
+          "name": "Immersive Paintings",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5363008,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/immersive_paintings-fabric-1.21.1-0.7.6.jar",
+            "MD5": "f1a0c388a0b44c1bb22b953823a0d024"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "elocindev.item_obliterator.fabric_quilt:item_obliterator:3.1.1@jar",
+          "name": "Item Obliterator",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 29943,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/Item_Obliterator-Fabric_Quilt-MC_1.21-3.1.1.jar",
+            "MD5": "0cba336efc008242654a9eb80947b89c"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:15.10.5+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 739009,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/Jade-1.21.1-Fabric-15.10.5.jar",
+            "MD5": "a9c20c6a83e08abed4aa62dfa5e608ad"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:19.27.0.336@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561528,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/jei-1.21.1-fabric-19.27.0.336.jar",
+            "MD5": "b4988fdc0d53bc418d6285e4b3d4bf16"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.9.9@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 786695,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/konkrete_fabric_1.9.9_MC_1.21.jar",
+            "MD5": "287ee9cfc6015f706672fd8c20f5ef9c"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.21.10@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1411200,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/malilib-fabric-1.21-0.21.10.jar",
+            "MD5": "6a5553e46eed0692d17b8cd566aed103"
+          }
+        },
+        {
+          "id": "generated.fabricmod:mega_showdown:fabric-1.7.3+1.7.3+1.21.1@jar",
+          "name": "Mega_showdown",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16947666,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/mega_showdown-fabric-1.7.3+1.7.3+1.21.1.jar",
+            "MD5": "33386165ebf83f650217d3dd85fc9562"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.10@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188035,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/melody_fabric_1.0.10_MC_1.21.jar",
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.25.1+mc1.21.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 471258,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/modernfix-fabric-5.25.1+mc1.21.1.jar",
+            "MD5": "17260c894041b7b4a1b1f2fd1a8f1a8b"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:11.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 973066,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/modmenu-11.0.3.jar",
+            "MD5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+          }
+        },
+        {
+          "id": "me.justahuman:more_cobblemon_tweaks:1.3.3@jar",
+          "name": "MoreCobblemonTweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 137626,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/MoreCobblemonTweaks-fabric-1.3.3.jar",
+            "MD5": "8c9e870b8dc446ffdc98d106f65da075"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 75984,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/MouseTweaks-fabric-mc1.21-2.26.jar",
+            "MD5": "1d39ead1641ef522bc7ae92383f21da8"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 37055,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/Necronomicon-Fabric-1.6.0+1.21.jar",
+            "MD5": "e197f0343fe4965699ce56f381b54952"
+          }
+        },
+        {
+          "id": "io.wispforest:owo:0.12.15.4+1.21@jar",
+          "name": "Oωo",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183559,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/owo-lib-0.12.15.4+1.21.jar",
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba"
+          }
+        },
+        {
+          "id": "dev.mrshawn:pokeblocks:1.4.0-1.21.1@jar",
+          "name": "Pokeblocks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1606467,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/pokeblocks-1.4.0-1.21.1.jar",
+            "MD5": "a576344a9af471b67b47437adcdd2a63"
+          }
+        },
+        {
+          "id": "timmychips.pommelheldmodels:pommel:1.4.2+1.21.x@jar",
+          "name": "Pommel - Held Item Models",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 50703,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/pommel-held-items-1.4.2+1.21.x.jar",
+            "MD5": "bcf200fc300f9edc7ef7b536fd3d26e9"
+          }
+        },
+        {
+          "id": "dragomordor.simpletms:simpletms:2.3.3@jar",
+          "name": "SimpleTMs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 821382,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/SimpleTMs-fabric-2.3.3.jar",
+            "MD5": "9a9d474ca102e1d04fa89926fa837896"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.12@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5341263,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.6.12.jar",
+            "MD5": "59b4135850402bde197adabd78fe85d6"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2177333,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/xaerominimap-fabric-1.21.1-25.3.10.jar",
+            "MD5": "0ae4f63c97b972ef3fdcd918c924feb5"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1413973,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/xaeroworldmap-fabric-1.21.1-1.40.11.jar",
+            "MD5": "bb6a594507dc9db0a981b2a2d6cf910c"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1131265,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+            "MD5": "aadf11f5a793296be7c195e1ca388492"
+          }
+        },
+        {
+          "id": "org.zamega:zamega:1.7.1@jar",
+          "name": "Zamega",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2374842,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/fabricmods/required/zamega-fabric-1.7.1.jar",
+            "MD5": "0c1a7288e27d27212add5c77e2174086"
+          }
+        },
+        {
+          "id": "accessories.json5",
+          "name": "accessories.json5",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/accessories.json5",
+            "MD5": "2e5b394d1482402ea95eedcad8b5e87a",
+            "path": "config/accessories.json5"
+          }
+        },
+        {
+          "id": "catchrate-display.json",
+          "name": "catchrate-display.json",
+          "type": "File",
+          "artifact": {
+            "size": 181,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/catchrate-display.json",
+            "MD5": "c21e8d0177156c41d773b557b90db5a1",
+            "path": "config/catchrate-display.json"
+          }
+        },
+        {
+          "id": "main.json",
+          "name": "main.json",
+          "type": "File",
+          "artifact": {
+            "size": 3408,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cobblemon/main.json",
+            "MD5": "e766eff9d190c0e56184439f1bbaeaaf",
+            "path": "config/cobblemon/main.json"
+          }
+        },
+        {
+          "id": "cobblemon-battle-extras.json",
+          "name": "cobblemon-battle-extras.json",
+          "type": "File",
+          "artifact": {
+            "size": 4025,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cobblemon-battle-extras.json",
+            "MD5": "0413d24788612b3dad8d82728ffd03a1",
+            "path": "config/cobblemon-battle-extras.json"
+          }
+        },
+        {
+          "id": "cobblemon_party_extras.json",
+          "name": "cobblemon_party_extras.json",
+          "type": "File",
+          "artifact": {
+            "size": 897,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cobblemon_party_extras.json",
+            "MD5": "8346da62a6f0a6b0bc8bbf86db446621",
+            "path": "config/cobblemon_party_extras.json"
+          }
+        },
+        {
+          "id": "client-config.json",
+          "name": "client-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 415,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cobblenav/client-config.json",
+            "MD5": "f3abbada287b9bfe11f35182c61ad34a",
+            "path": "config/cobblenav/client-config.json"
+          }
+        },
+        {
+          "id": "server-config.json",
+          "name": "server-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1246,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cobblenav/server-config.json",
+            "MD5": "3f419f9fb8de7c423f8b35d7b796c2aa",
+            "path": "config/cobblenav/server-config.json"
+          }
+        },
+        {
+          "id": "cpm.json",
+          "name": "cpm.json",
+          "type": "File",
+          "artifact": {
+            "size": 2447,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/cpm.json",
+            "MD5": "bbadee30b7632417aa78b77e0a9f3fac",
+            "path": "config/cpm.json"
+          }
+        },
+        {
+          "id": "CustomNpcs.cfg",
+          "name": "CustomNpcs.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1924,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/CustomNpcs.cfg",
+            "MD5": "063975f0106ea3bb442090b7a176320f",
+            "path": "config/CustomNpcs.cfg"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 524472,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/background.png",
+            "MD5": "3e4fe3eff55525870e839eef9ab9d11a",
+            "path": "config/customsplashscreen/background.png"
+          }
+        },
+        {
+          "id": "progressbar.png",
+          "name": "progressbar.png",
+          "type": "File",
+          "artifact": {
+            "size": 340,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/progressbar.png",
+            "MD5": "d6a0dcd5d2404e29a715bec4d364e081",
+            "path": "config/customsplashscreen/progressbar.png"
+          }
+        },
+        {
+          "id": "progressbar_background.png",
+          "name": "progressbar_background.png",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/progressbar_background.png",
+            "MD5": "c53a1a95a78e5605f45c32c22bda1c36",
+            "path": "config/customsplashscreen/progressbar_background.png"
+          }
+        },
+        {
+          "id": "square_logo.png",
+          "name": "square_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 50517,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/square_logo.png",
+            "MD5": "973c913f0a82de6fce163dda091000d6",
+            "path": "config/customsplashscreen/square_logo.png"
+          }
+        },
+        {
+          "id": "wide_logo.png",
+          "name": "wide_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 11788,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen/wide_logo.png",
+            "MD5": "b33fb474b70f0579c2c646f16b456a8c",
+            "path": "config/customsplashscreen/wide_logo.png"
+          }
+        },
+        {
+          "id": "customsplashscreen.json",
+          "name": "customsplashscreen.json",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/customsplashscreen.json",
+            "MD5": "6ddcb082cd654ae63fb3422007d47b2a",
+            "path": "config/customsplashscreen.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/drippyloadingscreen/options.txt",
+            "MD5": "422b46098fc009b4e6a0b1b16c61e17c",
+            "path": "config/drippyloadingscreen/options.txt"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1897,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/entityculling.json",
+            "MD5": "422b1718498a957ece2de2453634102a",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "6e8af77322aa0ce14f6059d9a39fafac",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "1111png.png",
+          "name": "1111png.png",
+          "type": "File",
+          "artifact": {
+            "size": 214559,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/1111png.png",
+            "MD5": "6c9a8e68d4decce7a494771300a11ac5",
+            "path": "config/fancymenu/assets/1111png.png"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 1851740,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/background.png",
+            "MD5": "830536cda49f22a0acef6d676c8ef1ab",
+            "path": "config/fancymenu/assets/background.png"
+          }
+        },
+        {
+          "id": "baise.png",
+          "name": "baise.png",
+          "type": "File",
+          "artifact": {
+            "size": 330121,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/baise.png",
+            "MD5": "7d290d17021494dce2f697e20ea08748",
+            "path": "config/fancymenu/assets/baise.png"
+          }
+        },
+        {
+          "id": "death.jpg",
+          "name": "death.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 304977,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/death.jpg",
+            "MD5": "5f261e89e9f98621e56a89c3eee67a0d",
+            "path": "config/fancymenu/assets/death.jpg"
+          }
+        },
+        {
+          "id": "discord.png",
+          "name": "discord.png",
+          "type": "File",
+          "artifact": {
+            "size": 228001,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/discord.png",
+            "MD5": "904fb59e0de8469fc355933125e53302",
+            "path": "config/fancymenu/assets/discord.png"
+          }
+        },
+        {
+          "id": "discordharvor.png",
+          "name": "discordharvor.png",
+          "type": "File",
+          "artifact": {
+            "size": 208983,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/discordharvor.png",
+            "MD5": "608708e23778a81569dd4230a5cc7981",
+            "path": "config/fancymenu/assets/discordharvor.png"
+          }
+        },
+        {
+          "id": "edirohavor.png",
+          "name": "edirohavor.png",
+          "type": "File",
+          "artifact": {
+            "size": 9213,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/edirohavor.png",
+            "MD5": "7ec1c60e0be486509e6a8c29eac9788a",
+            "path": "config/fancymenu/assets/edirohavor.png"
+          }
+        },
+        {
+          "id": "editor.png",
+          "name": "editor.png",
+          "type": "File",
+          "artifact": {
+            "size": 216600,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/editor.png",
+            "MD5": "a3dad2ff421af247acd042a406fdb697",
+            "path": "config/fancymenu/assets/editor.png"
+          }
+        },
+        {
+          "id": "editorharvor.png",
+          "name": "editorharvor.png",
+          "type": "File",
+          "artifact": {
+            "size": 228476,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/editorharvor.png",
+            "MD5": "1129eb576e61ad7d1582d48970936fb6",
+            "path": "config/fancymenu/assets/editorharvor.png"
+          }
+        },
+        {
+          "id": "fondo bueno.png",
+          "name": "fondo bueno.png",
+          "type": "File",
+          "artifact": {
+            "size": 2320607,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/fondo%20bueno.png",
+            "MD5": "11b6683e8a4f981499b3874e5021abe8",
+            "path": "config/fancymenu/assets/fondo bueno.png"
+          }
+        },
+        {
+          "id": "fondo00000.jpg",
+          "name": "fondo00000.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 3812586,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/fondo00000.jpg",
+            "MD5": "1ff564c048fcd3238c19ab8e3445cd04",
+            "path": "config/fancymenu/assets/fondo00000.jpg"
+          }
+        },
+        {
+          "id": "fondo00011.png",
+          "name": "fondo00011.png",
+          "type": "File",
+          "artifact": {
+            "size": 2169502,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/fondo00011.png",
+            "MD5": "0f404394c8dc04ce8cb5e3583578b6b4",
+            "path": "config/fancymenu/assets/fondo00011.png"
+          }
+        },
+        {
+          "id": "fondosinposte.jpg",
+          "name": "fondosinposte.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 131316,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/fondosinposte.jpg",
+            "MD5": "2bc76362e114308f25e7de3ffef9e198",
+            "path": "config/fancymenu/assets/fondosinposte.jpg"
+          }
+        },
+        {
+          "id": "jugarh2.png",
+          "name": "jugarh2.png",
+          "type": "File",
+          "artifact": {
+            "size": 216252,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/jugarh2.png",
+            "MD5": "e126e365469de8c74db35621e9912645",
+            "path": "config/fancymenu/assets/jugarh2.png"
+          }
+        },
+        {
+          "id": "jugarhorver.png",
+          "name": "jugarhorver.png",
+          "type": "File",
+          "artifact": {
+            "size": 264208,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/jugarhorver.png",
+            "MD5": "5c45b5e0a57bafa8978d48918b1b5ecd",
+            "path": "config/fancymenu/assets/jugarhorver.png"
+          }
+        },
+        {
+          "id": "jugarhover.png",
+          "name": "jugarhover.png",
+          "type": "File",
+          "artifact": {
+            "size": 8364,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/jugarhover.png",
+            "MD5": "382ba8ea0b9b24e4e18a36de3c27bc82",
+            "path": "config/fancymenu/assets/jugarhover.png"
+          }
+        },
+        {
+          "id": "load.png",
+          "name": "load.png",
+          "type": "File",
+          "artifact": {
+            "size": 186682,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/load.png",
+            "MD5": "947624b0b35ce66d9bd7b697d10f7923",
+            "path": "config/fancymenu/assets/load.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 223501,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/logo.png",
+            "MD5": "70dd6507615c659faf2dd90ce784b5f9",
+            "path": "config/fancymenu/assets/logo.png"
+          }
+        },
+        {
+          "id": "logoremas.png",
+          "name": "logoremas.png",
+          "type": "File",
+          "artifact": {
+            "size": 338381,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/logoremas.png",
+            "MD5": "69bd08ea406df8edcac883f505f83d1f",
+            "path": "config/fancymenu/assets/logoremas.png"
+          }
+        },
+        {
+          "id": "opciones1.png",
+          "name": "opciones1.png",
+          "type": "File",
+          "artifact": {
+            "size": 165948,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/opciones1.png",
+            "MD5": "b8d99393863648d0cc573de8119d6fef",
+            "path": "config/fancymenu/assets/opciones1.png"
+          }
+        },
+        {
+          "id": "opciones1png.png",
+          "name": "opciones1png.png",
+          "type": "File",
+          "artifact": {
+            "size": 209774,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/opciones1png.png",
+            "MD5": "9cdfcb3125cb91fe6878328a0a3a8c44",
+            "path": "config/fancymenu/assets/opciones1png.png"
+          }
+        },
+        {
+          "id": "opcioneshorver.png",
+          "name": "opcioneshorver.png",
+          "type": "File",
+          "artifact": {
+            "size": 247672,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/opcioneshorver.png",
+            "MD5": "b56fb50b1a10e54dac75fa1002be4f7f",
+            "path": "config/fancymenu/assets/opcioneshorver.png"
+          }
+        },
+        {
+          "id": "opcioneshover.png",
+          "name": "opcioneshover.png",
+          "type": "File",
+          "artifact": {
+            "size": 247672,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/opcioneshover.png",
+            "MD5": "b56fb50b1a10e54dac75fa1002be4f7f",
+            "path": "config/fancymenu/assets/opcioneshover.png"
+          }
+        },
+        {
+          "id": "poste.png",
+          "name": "poste.png",
+          "type": "File",
+          "artifact": {
+            "size": 48215,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/poste.png",
+            "MD5": "6746c9857e1358190fe0368b353a481d",
+            "path": "config/fancymenu/assets/poste.png"
+          }
+        },
+        {
+          "id": "postee.png",
+          "name": "postee.png",
+          "type": "File",
+          "artifact": {
+            "size": 63032,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/postee.png",
+            "MD5": "87e5cdfb427c6a64db26664f3d973391",
+            "path": "config/fancymenu/assets/postee.png"
+          }
+        },
+        {
+          "id": "salir1.png",
+          "name": "salir1.png",
+          "type": "File",
+          "artifact": {
+            "size": 160889,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/salir1.png",
+            "MD5": "71136d32bd2623744d59f567adc731ea",
+            "path": "config/fancymenu/assets/salir1.png"
+          }
+        },
+        {
+          "id": "salirhover.png",
+          "name": "salirhover.png",
+          "type": "File",
+          "artifact": {
+            "size": 172196,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/salirhover.png",
+            "MD5": "77b45312eea4dc2d7323bae22b62dc34",
+            "path": "config/fancymenu/assets/salirhover.png"
+          }
+        },
+        {
+          "id": "tienda.png",
+          "name": "tienda.png",
+          "type": "File",
+          "artifact": {
+            "size": 255825,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/tienda.png",
+            "MD5": "4ef07fa4ab2b411cb16c01a3992acb21",
+            "path": "config/fancymenu/assets/tienda.png"
+          }
+        },
+        {
+          "id": "tiendahover.png",
+          "name": "tiendahover.png",
+          "type": "File",
+          "artifact": {
+            "size": 257118,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/assets/tiendahover.png",
+            "MD5": "cb4284eb68fdc8c77efb8b8fbe2b17d9",
+            "path": "config/fancymenu/assets/tiendahover.png"
+          }
+        },
+        {
+          "id": "audio_element_controller_metas.json",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/audio_element_controller_metas.json",
+            "MD5": "32a7775dc8257ffb5d9acd51461a5677",
+            "path": "config/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 1851740,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/background.png",
+            "MD5": "830536cda49f22a0acef6d676c8ef1ab",
+            "path": "config/fancymenu/config/fancymenu/assets/background.png"
+          }
+        },
+        {
+          "id": "baise.png",
+          "name": "baise.png",
+          "type": "File",
+          "artifact": {
+            "size": 330121,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/baise.png",
+            "MD5": "7d290d17021494dce2f697e20ea08748",
+            "path": "config/fancymenu/config/fancymenu/assets/baise.png"
+          }
+        },
+        {
+          "id": "death.jpg",
+          "name": "death.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 304977,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/death.jpg",
+            "MD5": "5f261e89e9f98621e56a89c3eee67a0d",
+            "path": "config/fancymenu/config/fancymenu/assets/death.jpg"
+          }
+        },
+        {
+          "id": "load.png",
+          "name": "load.png",
+          "type": "File",
+          "artifact": {
+            "size": 186682,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/load.png",
+            "MD5": "947624b0b35ce66d9bd7b697d10f7923",
+            "path": "config/fancymenu/config/fancymenu/assets/load.png"
+          }
+        },
+        {
+          "id": "title_continue_button_normal.png",
+          "name": "title_continue_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 15990,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_continue_button_normal.png",
+            "MD5": "8510f91b7ffc621422f3471245a32dd6",
+            "path": "config/fancymenu/config/fancymenu/assets/title_continue_button_normal.png"
+          }
+        },
+        {
+          "id": "title_continue_button_on.png",
+          "name": "title_continue_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 16271,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_continue_button_on.png",
+            "MD5": "eee7cdbb95879c585b0f67b68999349f",
+            "path": "config/fancymenu/config/fancymenu/assets/title_continue_button_on.png"
+          }
+        },
+        {
+          "id": "title_head.png",
+          "name": "title_head.png",
+          "type": "File",
+          "artifact": {
+            "size": 14318,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_head.png",
+            "MD5": "fa367a23e35fb47eec45afec50d6a93a",
+            "path": "config/fancymenu/config/fancymenu/assets/title_head.png"
+          }
+        },
+        {
+          "id": "title_lena.png",
+          "name": "title_lena.png",
+          "type": "File",
+          "artifact": {
+            "size": 896409,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_lena.png",
+            "MD5": "fa802980e37cbdb4594c4840523e3ca5",
+            "path": "config/fancymenu/config/fancymenu/assets/title_lena.png"
+          }
+        },
+        {
+          "id": "title_logo.png",
+          "name": "title_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 137498,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_logo.png",
+            "MD5": "a73cb160c44a622b62063eb927495438",
+            "path": "config/fancymenu/config/fancymenu/assets/title_logo.png"
+          }
+        },
+        {
+          "id": "title_mako.png",
+          "name": "title_mako.png",
+          "type": "File",
+          "artifact": {
+            "size": 619773,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_mako.png",
+            "MD5": "c0df2d1bd3890954bb39fba2dc0ce088",
+            "path": "config/fancymenu/config/fancymenu/assets/title_mako.png"
+          }
+        },
+        {
+          "id": "title_mod_list_button_normal.png",
+          "name": "title_mod_list_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 15197,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_mod_list_button_normal.png",
+            "MD5": "989a77251593fb68f28501b2c11da6b4",
+            "path": "config/fancymenu/config/fancymenu/assets/title_mod_list_button_normal.png"
+          }
+        },
+        {
+          "id": "title_mod_list_button_on.png",
+          "name": "title_mod_list_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 15411,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_mod_list_button_on.png",
+            "MD5": "194da25bd566ab67c9c21049d93260fd",
+            "path": "config/fancymenu/config/fancymenu/assets/title_mod_list_button_on.png"
+          }
+        },
+        {
+          "id": "title_murasame.png",
+          "name": "title_murasame.png",
+          "type": "File",
+          "artifact": {
+            "size": 1236626,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_murasame.png",
+            "MD5": "534d65a04cf64c062ef6d3b1d1e60a98",
+            "path": "config/fancymenu/config/fancymenu/assets/title_murasame.png"
+          }
+        },
+        {
+          "id": "title_new_game_button_normal.png",
+          "name": "title_new_game_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 12859,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_new_game_button_normal.png",
+            "MD5": "8b2702a679efbf89985cef8625ad0b4c",
+            "path": "config/fancymenu/config/fancymenu/assets/title_new_game_button_normal.png"
+          }
+        },
+        {
+          "id": "title_new_game_button_on.png",
+          "name": "title_new_game_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 12966,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_new_game_button_on.png",
+            "MD5": "d7de6c8dc1d8f03266de6593604eb58b",
+            "path": "config/fancymenu/config/fancymenu/assets/title_new_game_button_on.png"
+          }
+        },
+        {
+          "id": "title_options_button_normal.png",
+          "name": "title_options_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 15745,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_options_button_normal.png",
+            "MD5": "bc47c3e5c44020121c4bb84c3b32760a",
+            "path": "config/fancymenu/config/fancymenu/assets/title_options_button_normal.png"
+          }
+        },
+        {
+          "id": "title_options_button_on.png",
+          "name": "title_options_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 15945,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_options_button_on.png",
+            "MD5": "017ee87351bed20288efb277fe45d7ed",
+            "path": "config/fancymenu/config/fancymenu/assets/title_options_button_on.png"
+          }
+        },
+        {
+          "id": "title_quit_game_button_normal.png",
+          "name": "title_quit_game_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 14935,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_quit_game_button_normal.png",
+            "MD5": "56c814b968a809d8058dbc72fcd69b89",
+            "path": "config/fancymenu/config/fancymenu/assets/title_quit_game_button_normal.png"
+          }
+        },
+        {
+          "id": "title_quit_game_button_on.png",
+          "name": "title_quit_game_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 15091,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_quit_game_button_on.png",
+            "MD5": "08ee6ea5bb26badf7482d77385df3208",
+            "path": "config/fancymenu/config/fancymenu/assets/title_quit_game_button_on.png"
+          }
+        },
+        {
+          "id": "title_realms_button_normal.png",
+          "name": "title_realms_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 9629,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_realms_button_normal.png",
+            "MD5": "1dc3d220c4ce03ced1e13eb5d845a0a6",
+            "path": "config/fancymenu/config/fancymenu/assets/title_realms_button_normal.png"
+          }
+        },
+        {
+          "id": "title_realms_button_on.png",
+          "name": "title_realms_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 9678,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_realms_button_on.png",
+            "MD5": "7eb88f9c6285f71b522dc1a5175f2dff",
+            "path": "config/fancymenu/config/fancymenu/assets/title_realms_button_on.png"
+          }
+        },
+        {
+          "id": "title_select_world_button_normal.png",
+          "name": "title_select_world_button_normal.png",
+          "type": "File",
+          "artifact": {
+            "size": 13558,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_select_world_button_normal.png",
+            "MD5": "c7d415a6e0ce70bf0abf8e6cdff3f00c",
+            "path": "config/fancymenu/config/fancymenu/assets/title_select_world_button_normal.png"
+          }
+        },
+        {
+          "id": "title_select_world_button_on.png",
+          "name": "title_select_world_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 13683,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_select_world_button_on.png",
+            "MD5": "37a61a8137574710f4ae9f01baad87f3",
+            "path": "config/fancymenu/config/fancymenu/assets/title_select_world_button_on.png"
+          }
+        },
+        {
+          "id": "title_yoshino.png",
+          "name": "title_yoshino.png",
+          "type": "File",
+          "artifact": {
+            "size": 1281897,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/title_yoshino.png",
+            "MD5": "327a366fc88a58d4a5bb4313b4c68eac",
+            "path": "config/fancymenu/config/fancymenu/assets/title_yoshino.png"
+          }
+        },
+        {
+          "id": "yuzu_title_button_mod_list.ogg",
+          "name": "yuzu_title_button_mod_list.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 11572,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_mod_list.ogg",
+            "MD5": "8e779f85324f502cdcacb15f9d7599f6",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_mod_list.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_new_game.ogg",
+          "name": "yuzu_title_button_new_game.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 19697,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_new_game.ogg",
+            "MD5": "2c0a5ba0a06c5a2ead0fcc1b62653ab7",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_new_game.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_on.ogg",
+          "name": "yuzu_title_button_on.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 6020,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_on.ogg",
+            "MD5": "46266488fb7845d5eea02ed7cdd0d478",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_on.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_options.ogg",
+          "name": "yuzu_title_button_options.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 20891,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_options.ogg",
+            "MD5": "cbaa7097c8fabf8f46034b87a9f5ac6a",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_options.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_quit_game.ogg",
+          "name": "yuzu_title_button_quit_game.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 13854,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_quit_game.ogg",
+            "MD5": "dec4736481b1bf7b78e0bf7a64565104",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_quit_game.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_realms.ogg",
+          "name": "yuzu_title_button_realms.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 19489,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_realms.ogg",
+            "MD5": "69427431cae01a43bf6d9015ca4f7c03",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_realms.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_button_select_world.ogg",
+          "name": "yuzu_title_button_select_world.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 15920,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_button_select_world.ogg",
+            "MD5": "aa4600843d5e41a8f1b3773edb7d192f",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_button_select_world.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_music.ogg",
+          "name": "yuzu_title_music.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 3167291,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_music.ogg",
+            "MD5": "92d5f32717957ccb86c4541379be24f7",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_music.ogg"
+          }
+        },
+        {
+          "id": "yuzu_title_senren.ogg",
+          "name": "yuzu_title_senren.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 14512,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/assets/yuzu_title_senren.ogg",
+            "MD5": "6d17280d21ac7a7bb98135c64e42f751",
+            "path": "config/fancymenu/config/fancymenu/assets/yuzu_title_senren.ogg"
+          }
+        },
+        {
+          "id": "audio_element_controller_metas.json",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/audio_element_controller_metas.json",
+            "MD5": "32a7775dc8257ffb5d9acd51461a5677",
+            "path": "config/fancymenu/config/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 262,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/customizablemenus.txt",
+            "MD5": "491d9b95f6b11d31128b946193f913fa",
+            "path": "config/fancymenu/config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "death_screen_layout.txt",
+          "name": "death_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6239,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/customization/death_screen_layout.txt",
+            "MD5": "61989847c16c1b53e980a24e598b335a",
+            "path": "config/fancymenu/config/fancymenu/customization/death_screen_layout.txt"
+          }
+        },
+        {
+          "id": "drippy_loading_overlay_layout.txt",
+          "name": "drippy_loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6206,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+            "MD5": "abc206ae93622a96981e273af5d52c70",
+            "path": "config/fancymenu/config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 38754,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "22459e921801746e073aacd86ff002c0",
+            "path": "config/fancymenu/config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1972,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/options.txt",
+            "MD5": "ac199124b0f50cadea8a2f1037d9c159",
+            "path": "config/fancymenu/config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 4133,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/ui_themes/dark.json",
+            "MD5": "3981f37966b00a80e31aac89169be280",
+            "path": "config/fancymenu/config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 4135,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/ui_themes/light.json",
+            "MD5": "adfba137b3d62c50a5186a4f6523a72a",
+            "path": "config/fancymenu/config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 55,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "7f493e2abc148fb67ac97306b080cfdb",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "cobblemonmx.txt",
+          "name": "cobblemonmx.txt",
+          "type": "File",
+          "artifact": {
+            "size": 36372,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/cobblemonmx.txt",
+            "MD5": "87ab0243afac3a49ebcf9fe60269c91e",
+            "path": "config/fancymenu/customization/cobblemonmx.txt"
+          }
+        },
+        {
+          "id": "death_screen_layout.txt",
+          "name": "death_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6239,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/death_screen_layout.txt",
+            "MD5": "61989847c16c1b53e980a24e598b335a",
+            "path": "config/fancymenu/customization/death_screen_layout.txt"
+          }
+        },
+        {
+          "id": "loading2.txt",
+          "name": "loading2.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6552,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/loading2.txt",
+            "MD5": "d75e9916e9de32e3e306a82d734897ac",
+            "path": "config/fancymenu/customization/loading2.txt"
+          }
+        },
+        {
+          "id": "loadinscreen.txt",
+          "name": "loadinscreen.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5228,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/loadinscreen.txt",
+            "MD5": "965c0cdbc56920608e827934e7edeb68",
+            "path": "config/fancymenu/customization/loadinscreen.txt"
+          }
+        },
+        {
+          "id": "prueba.txt",
+          "name": "prueba.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/prueba.txt",
+            "MD5": "9b18837cd2f4397a02f8ccee08386cff",
+            "path": "config/fancymenu/customization/prueba.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 40266,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "f06b8ebbce0ab5a004f62dbae7103f03",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 200,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "b29b2683500686f246cf31a393af920b",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "animation_controller_states.json",
+          "name": "animation_controller_states.json",
+          "type": "File",
+          "artifact": {
+            "size": 656,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/animation_controller_states.json",
+            "MD5": "5fc53a8bfcb277d1b13c7868d0ff6635",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/animation_controller_states.json"
+          }
+        },
+        {
+          "id": "bg_leaves.fma",
+          "name": "bg_leaves.fma",
+          "type": "File",
+          "artifact": {
+            "size": 905044,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_leaves.fma",
+            "MD5": "929daa7ff3e734cf61d2f05f4dc900c0",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_leaves.fma"
+          }
+        },
+        {
+          "id": "bg_left1.fma",
+          "name": "bg_left1.fma",
+          "type": "File",
+          "artifact": {
+            "size": 757349,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_left1.fma",
+            "MD5": "39bea5af9e7618a7fcc3f80e5fbfad7c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_left1.fma"
+          }
+        },
+        {
+          "id": "bg_left2.fma",
+          "name": "bg_left2.fma",
+          "type": "File",
+          "artifact": {
+            "size": 983210,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_left2.fma",
+            "MD5": "6968c204721a6e210c647fc7ac873062",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_left2.fma"
+          }
+        },
+        {
+          "id": "bg_musicplayer.fma",
+          "name": "bg_musicplayer.fma",
+          "type": "File",
+          "artifact": {
+            "size": 420251,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_musicplayer.fma",
+            "MD5": "1b820abcc7e7da049c3ab36f0775a0c8",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_musicplayer.fma"
+          }
+        },
+        {
+          "id": "bg_right1.fma",
+          "name": "bg_right1.fma",
+          "type": "File",
+          "artifact": {
+            "size": 837632,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_right1.fma",
+            "MD5": "4ac08d30de9822c8a99b3e24ba10e2a7",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_right1.fma"
+          }
+        },
+        {
+          "id": "bg_right2.fma",
+          "name": "bg_right2.fma",
+          "type": "File",
+          "artifact": {
+            "size": 1349393,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_right2.fma",
+            "MD5": "64c5016b2f39f7a08279a429686a27b5",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/animated/bg_right2.fma"
+          }
+        },
+        {
+          "id": "bg_back_05.png",
+          "name": "bg_back_05.png",
+          "type": "File",
+          "artifact": {
+            "size": 108077,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_back_05.png",
+            "MD5": "027e4388b7dd76c304f0e9a1b5dc5f37",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_back_05.png"
+          }
+        },
+        {
+          "id": "bg_leaves.png",
+          "name": "bg_leaves.png",
+          "type": "File",
+          "artifact": {
+            "size": 39372,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_leaves.png",
+            "MD5": "93f0cf9875bdf9d74fafb4f42877fdb1",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_leaves.png"
+          }
+        },
+        {
+          "id": "bg_left1.png",
+          "name": "bg_left1.png",
+          "type": "File",
+          "artifact": {
+            "size": 47530,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_left1.png",
+            "MD5": "ba57cc8179394c2186e79f524baf6949",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_left1.png"
+          }
+        },
+        {
+          "id": "bg_left2.png",
+          "name": "bg_left2.png",
+          "type": "File",
+          "artifact": {
+            "size": 92778,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_left2.png",
+            "MD5": "d17fc8cfe2bda421d2304e8b25db2602",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_left2.png"
+          }
+        },
+        {
+          "id": "bg_right1.png",
+          "name": "bg_right1.png",
+          "type": "File",
+          "artifact": {
+            "size": 29972,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_right1.png",
+            "MD5": "3173b950eecdcc347868385fdfef2240",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_right1.png"
+          }
+        },
+        {
+          "id": "bg_right2.png",
+          "name": "bg_right2.png",
+          "type": "File",
+          "artifact": {
+            "size": 120842,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_right2.png",
+            "MD5": "2a0ed1fd37e36d3e2bf227e73e1a0ac6",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/bg_right2.png"
+          }
+        },
+        {
+          "id": "btn_template_0.png",
+          "name": "btn_template_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1862,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/btn_template_0.png",
+            "MD5": "b3625e39c5f33746e3dc2c9856f73f05",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/btn_template_0.png"
+          }
+        },
+        {
+          "id": "btn_template_1.png",
+          "name": "btn_template_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1865,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/btn_template_1.png",
+            "MD5": "d9e6f192000a6d6a318333549b9daa47",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/btn_template_1.png"
+          }
+        },
+        {
+          "id": "dec_cloud_left_00.png",
+          "name": "dec_cloud_left_00.png",
+          "type": "File",
+          "artifact": {
+            "size": 98680,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_left_00.png",
+            "MD5": "b75a357f4e5db118afa6f96c45a8af99",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_left_00.png"
+          }
+        },
+        {
+          "id": "dec_cloud_left_04.png",
+          "name": "dec_cloud_left_04.png",
+          "type": "File",
+          "artifact": {
+            "size": 80915,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_left_04.png",
+            "MD5": "6debc621d363ee473dd557d20859a026",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_left_04.png"
+          }
+        },
+        {
+          "id": "dec_cloud_right_00.png",
+          "name": "dec_cloud_right_00.png",
+          "type": "File",
+          "artifact": {
+            "size": 114325,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_right_00.png",
+            "MD5": "2e4bfacc46a4b3b1e0b8a1f18eeb9717",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_right_00.png"
+          }
+        },
+        {
+          "id": "dec_cloud_right_04.png",
+          "name": "dec_cloud_right_04.png",
+          "type": "File",
+          "artifact": {
+            "size": 105918,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_right_04.png",
+            "MD5": "92aac3581a9acb4b619f9370db16876c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_cloud_right_04.png"
+          }
+        },
+        {
+          "id": "dec_faintfog_04.png",
+          "name": "dec_faintfog_04.png",
+          "type": "File",
+          "artifact": {
+            "size": 18574,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_faintfog_04.png",
+            "MD5": "72056bca628847a1a633478a68e1f482",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_faintfog_04.png"
+          }
+        },
+        {
+          "id": "dec_fog_03.png",
+          "name": "dec_fog_03.png",
+          "type": "File",
+          "artifact": {
+            "size": 170080,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_fog_03.png",
+            "MD5": "b5f9915cb8b5c087e63a7c1500393aef",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_fog_03.png"
+          }
+        },
+        {
+          "id": "dec_lightbeam_left_00.png",
+          "name": "dec_lightbeam_left_00.png",
+          "type": "File",
+          "artifact": {
+            "size": 29607,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_00.png",
+            "MD5": "e723b1e6cdf935c0699d67ac3e1bdacc",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_00.png"
+          }
+        },
+        {
+          "id": "dec_lightbeam_left_02.png",
+          "name": "dec_lightbeam_left_02.png",
+          "type": "File",
+          "artifact": {
+            "size": 28230,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02.png",
+            "MD5": "fb9b852c15efff050aa611abbd8cd5e7",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02.png"
+          }
+        },
+        {
+          "id": "dec_lightbeam_left_02_2.png",
+          "name": "dec_lightbeam_left_02_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 26485,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02_2.png",
+            "MD5": "736d8b25e6df595fa019cf6a216ef206",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02_2.png"
+          }
+        },
+        {
+          "id": "dec_lightbeam_left_02_3.png",
+          "name": "dec_lightbeam_left_02_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 27221,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02_3.png",
+            "MD5": "385661cede95389a16f5192e32b4e408",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_left_02_3.png"
+          }
+        },
+        {
+          "id": "dec_lightbeam_right_01.png",
+          "name": "dec_lightbeam_right_01.png",
+          "type": "File",
+          "artifact": {
+            "size": 36140,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_right_01.png",
+            "MD5": "aca4d2b382cedbbb2648dfc36d1444be",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/dec_lightbeam_right_01.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 40469,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/logo.png",
+            "MD5": "966d5db31ace110d2fb3ae913f2e2a96",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/logo.png"
+          }
+        },
+        {
+          "id": "template.png",
+          "name": "template.png",
+          "type": "File",
+          "artifact": {
+            "size": 127965,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/temp/template.png",
+            "MD5": "f3a3bbd1c90c2af4976967b21abe6d19",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/temp/template.png"
+          }
+        },
+        {
+          "id": "bg_backpack.png",
+          "name": "bg_backpack.png",
+          "type": "File",
+          "artifact": {
+            "size": 13798,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack.png",
+            "MD5": "95255cd52f150f5738a849353350f14e",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack.png"
+          }
+        },
+        {
+          "id": "bg_backpack_acc_1.png",
+          "name": "bg_backpack_acc_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 16673,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_1.png",
+            "MD5": "5569904e91a68f3424fd42d20ab578c4",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_1.png"
+          }
+        },
+        {
+          "id": "bg_backpack_acc_2.png",
+          "name": "bg_backpack_acc_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 14800,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_2.png",
+            "MD5": "c94512225d27212b185b8d97de3b1882",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_2.png"
+          }
+        },
+        {
+          "id": "bg_backpack_acc_3.png",
+          "name": "bg_backpack_acc_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 13018,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_3.png",
+            "MD5": "97d22dd69844cddda1b1b8cfabe1ba7b",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_backpack_acc_3.png"
+          }
+        },
+        {
+          "id": "bg_musicplayer.png",
+          "name": "bg_musicplayer.png",
+          "type": "File",
+          "artifact": {
+            "size": 5767,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_musicplayer.png",
+            "MD5": "c0da9112224b3f7d5a9b21798bfe7359",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_musicplayer.png"
+          }
+        },
+        {
+          "id": "bg_paperinfo.png",
+          "name": "bg_paperinfo.png",
+          "type": "File",
+          "artifact": {
+            "size": 13396,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_paperinfo.png",
+            "MD5": "b1ee01c6f962159430752349121fc49b",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/bg_paperinfo.png"
+          }
+        },
+        {
+          "id": "btn_back_0.png",
+          "name": "btn_back_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1966,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_back_0.png",
+            "MD5": "a09a10c0cd86d30bc844255d3d4dde7f",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_back_0.png"
+          }
+        },
+        {
+          "id": "btn_back_1.png",
+          "name": "btn_back_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1943,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_back_1.png",
+            "MD5": "1f258d7a45b6e3dfc3c5a50a3da610b5",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_back_1.png"
+          }
+        },
+        {
+          "id": "btn_customization_0.png",
+          "name": "btn_customization_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 4330,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_customization_0.png",
+            "MD5": "5602b50ad539467962d8f35c65014d38",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_customization_0.png"
+          }
+        },
+        {
+          "id": "btn_customization_1.png",
+          "name": "btn_customization_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4322,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_customization_1.png",
+            "MD5": "96dad0da313cc4423458000d15dfeaec",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_customization_1.png"
+          }
+        },
+        {
+          "id": "btn_info_0.png",
+          "name": "btn_info_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 5786,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_info_0.png",
+            "MD5": "997ec6120548991d54d86220e9bc32e5",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_info_0.png"
+          }
+        },
+        {
+          "id": "btn_info_1.png",
+          "name": "btn_info_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5763,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_info_1.png",
+            "MD5": "e750fd5f880c7858e3df69ac4a2334c7",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_info_1.png"
+          }
+        },
+        {
+          "id": "btn_multiplayer_0.png",
+          "name": "btn_multiplayer_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 11871,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_multiplayer_0.png",
+            "MD5": "b0659527b907a073400cf3e01b79fa30",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_multiplayer_0.png"
+          }
+        },
+        {
+          "id": "btn_multiplayer_1.png",
+          "name": "btn_multiplayer_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 11883,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_multiplayer_1.png",
+            "MD5": "8a9ba2c6d4735e1debd101693d436306",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_multiplayer_1.png"
+          }
+        },
+        {
+          "id": "btn_music_0.png",
+          "name": "btn_music_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 5636,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_music_0.png",
+            "MD5": "f23785c5dbc22589141ae367b10451d8",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_music_0.png"
+          }
+        },
+        {
+          "id": "btn_music_1.png",
+          "name": "btn_music_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 5641,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_music_1.png",
+            "MD5": "a36e46bc4481abdf0ef7425694441ea1",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_music_1.png"
+          }
+        },
+        {
+          "id": "btn_next_0.png",
+          "name": "btn_next_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1958,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_next_0.png",
+            "MD5": "0683de85e172f677a678a5c5d3641589",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_next_0.png"
+          }
+        },
+        {
+          "id": "btn_next_1.png",
+          "name": "btn_next_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1959,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_next_1.png",
+            "MD5": "f20f2194d5a44e9f3e200e42b510ed1c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_next_1.png"
+          }
+        },
+        {
+          "id": "btn_others_0.png",
+          "name": "btn_others_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 4686,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_others_0.png",
+            "MD5": "2aa5d92b22f3ad147fd39e06ff9b423e",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_others_0.png"
+          }
+        },
+        {
+          "id": "btn_others_1.png",
+          "name": "btn_others_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 4690,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_others_1.png",
+            "MD5": "257a2216487f831707c212ef8393b04c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_others_1.png"
+          }
+        },
+        {
+          "id": "btn_pause_0.png",
+          "name": "btn_pause_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 2022,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_pause_0.png",
+            "MD5": "07258babea547404c0ba061ce93fe091",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_pause_0.png"
+          }
+        },
+        {
+          "id": "btn_pause_1.png",
+          "name": "btn_pause_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2021,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_pause_1.png",
+            "MD5": "d34ef18e69a93a10ff50886af47d5726",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_pause_1.png"
+          }
+        },
+        {
+          "id": "btn_play_0.png",
+          "name": "btn_play_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1909,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_play_0.png",
+            "MD5": "b572a78dda9b59e5e92b26366e82572f",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_play_0.png"
+          }
+        },
+        {
+          "id": "btn_play_1.png",
+          "name": "btn_play_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1928,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_play_1.png",
+            "MD5": "f6141336fd854d4ca96197f276b3b703",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_play_1.png"
+          }
+        },
+        {
+          "id": "btn_realm_0.png",
+          "name": "btn_realm_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 3392,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_realm_0.png",
+            "MD5": "8246d289f8805a57a9a2dee84617156b",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_realm_0.png"
+          }
+        },
+        {
+          "id": "btn_realm_1.png",
+          "name": "btn_realm_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 3376,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_realm_1.png",
+            "MD5": "48df5be089b65a32951f1d1bf3114775",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_realm_1.png"
+          }
+        },
+        {
+          "id": "btn_singleplayer_0.png",
+          "name": "btn_singleplayer_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 20975,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_singleplayer_0.png",
+            "MD5": "e78dcc52114575775fc34cbe5506ad69",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_singleplayer_0.png"
+          }
+        },
+        {
+          "id": "btn_singleplayer_1.png",
+          "name": "btn_singleplayer_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 20962,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_singleplayer_1.png",
+            "MD5": "234fce65f7a5494a67c754f8ec9a7e9c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_singleplayer_1.png"
+          }
+        },
+        {
+          "id": "btn_start_0.png",
+          "name": "btn_start_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 7242,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_start_0.png",
+            "MD5": "df96106e071efb43accb4d81117449d2",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_start_0.png"
+          }
+        },
+        {
+          "id": "btn_start_1.png",
+          "name": "btn_start_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 7248,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_start_1.png",
+            "MD5": "17c30c8c3e9b8015a7a177309734ffeb",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_start_1.png"
+          }
+        },
+        {
+          "id": "btn_template_0.png",
+          "name": "btn_template_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1985,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_template_0.png",
+            "MD5": "3e7ad8ed92c26ef64fa45986b525540f",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_template_0.png"
+          }
+        },
+        {
+          "id": "btn_template_1.png",
+          "name": "btn_template_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 1988,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_template_1.png",
+            "MD5": "1209439ec578c78fd82560239baabeb5",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/images/static/widgets/btn_template_1.png"
+          }
+        },
+        {
+          "id": "bagopen1.ogg",
+          "name": "bagopen1.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 7574,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen1.ogg",
+            "MD5": "18b323053be95997a0cee87e52c733b8",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen1.ogg"
+          }
+        },
+        {
+          "id": "bagopen2.ogg",
+          "name": "bagopen2.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 13169,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen2.ogg",
+            "MD5": "83be27c9b2d90adf28709ff79ca21e28",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen2.ogg"
+          }
+        },
+        {
+          "id": "bagopen3.ogg",
+          "name": "bagopen3.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 13207,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen3.ogg",
+            "MD5": "fbc1c41fcb073004fb6f3a1a08b0e7a5",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen3.ogg"
+          }
+        },
+        {
+          "id": "bagopen4.ogg",
+          "name": "bagopen4.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 8507,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen4.ogg",
+            "MD5": "f97001055fbf638cdad9485cc238dc34",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen4.ogg"
+          }
+        },
+        {
+          "id": "bagopen5.ogg",
+          "name": "bagopen5.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 8541,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen5.ogg",
+            "MD5": "a3d41446435c764b100f7616b8c9e230",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/assets/madeinabyss/sounds/bagopen5.ogg"
+          }
+        },
+        {
+          "id": "audio_element_controller_metas.json",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 109,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/audio_element_controller_metas.json",
+            "MD5": "ec038e983590e8be01b5dec806a8a35b",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/customizablemenus.txt",
+            "MD5": "13e0a64f6dc70693c69c54ae790e741c",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "mainmenuinabyss.txt",
+          "name": "mainmenuinabyss.txt",
+          "type": "File",
+          "artifact": {
+            "size": 232469,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/customization/mainmenuinabyss.txt",
+            "MD5": "a26b5f79e6ce668ddc418495b2672c27",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/customization/mainmenuinabyss.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "4ca4d09983e288249c3911fa7122ea94",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2129,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/options.txt",
+            "MD5": "5ee11a02e6fe9a413af3081beea62a6e",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 1120,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/MineinAbyss/fancymenu/user_variables.db",
+            "MD5": "eb7462bb04858584945be8b4114dd500",
+            "path": "config/fancymenu/MineinAbyss/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "normalized_scroll_screens.json",
+          "name": "normalized_scroll_screens.json",
+          "type": "File",
+          "artifact": {
+            "size": 27,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/normalized_scroll_screens.json",
+            "MD5": "9957cc99b5c1146e564dc9e3a22e102e",
+            "path": "config/fancymenu/normalized_scroll_screens.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2128,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/options.txt",
+            "MD5": "f1a190747f3e29d50764bde9a46a7659",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "ferritecore.mixin.properties",
+          "name": "ferritecore.mixin.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1615,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/ferritecore.mixin.properties",
+            "MD5": "5c31ce8efe368dbbf5051a46985ffcd2",
+            "path": "config/ferritecore.mixin.properties"
+          }
+        },
+        {
+          "id": "forgeconfigapiport.toml",
+          "name": "forgeconfigapiport.toml",
+          "type": "File",
+          "artifact": {
+            "size": 523,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/forgeconfigapiport.toml",
+            "MD5": "80b3cd8edc58e5849bf5a7a0c48bd4ef",
+            "path": "config/forgeconfigapiport.toml"
+          }
+        },
+        {
+          "id": "keybinds.toml",
+          "name": "keybinds.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6403,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/fzzy_config/keybinds.toml",
+            "MD5": "db29914636f6e1455464345f8e91d353",
+            "path": "config/fzzy_config/keybinds.toml"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1114,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/immediatelyfast.json",
+            "MD5": "8c5364d78b0f6f9c1461f88ca38e8d84",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "client_config.toml",
+          "name": "client_config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 302,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/immersive_paintings/client_config.toml",
+            "MD5": "1d9b13067c8e3e11812da7ec837de247",
+            "path": "config/immersive_paintings/client_config.toml"
+          }
+        },
+        {
+          "id": "common_config.toml",
+          "name": "common_config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 412,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/immersive_paintings/common_config.toml",
+            "MD5": "b0c4ef80df020c4df1a829066a3728bb",
+            "path": "config/immersive_paintings/common_config.toml"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/iris.properties",
+            "MD5": "7eb3ad0931701ce62f6755da09ba7ebb",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "item_obliterator.json5",
+          "name": "item_obliterator.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2854,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/item_obliterator.json5",
+            "MD5": "f401cda18867b431ead875a0f62ebff1",
+            "path": "config/item_obliterator.json5"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 149,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/hide-blocks.json",
+            "MD5": "83c9f405ab4ae1427f76ab4a30a16644",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/hide-entities.json",
+            "MD5": "a52182a33844468228bdbc58dbe5a73a",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 1089,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/jade.json",
+            "MD5": "ad37277172d44ee4f0b17d486850c163",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 2047,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/plugins.json",
+            "MD5": "111c992c7d954f11bd8a9346cb6b2c2f",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 2068,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/sort-order.json",
+            "MD5": "a8049a6e2e151035abd29b4cf90be6b0",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "usernamecache.json",
+          "name": "usernamecache.json",
+          "type": "File",
+          "artifact": {
+            "size": 5061,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jade/usernamecache.json",
+            "MD5": "e179a9e2a0cceb73e27ff481dc3b1d50",
+            "path": "config/jade/usernamecache.json"
+          }
+        },
+        {
+          "id": "blacklist.json",
+          "name": "blacklist.json",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/blacklist.json",
+            "MD5": "78f1a39821342258f73e542d9ea40e0f",
+            "path": "config/jei/blacklist.json"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 131,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "4f0c03e3d6440304632d9b81ca07cdd7",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 86,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "a297d9637a74577adaed06e68221a8a0",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 10760,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/jei-client.ini",
+            "MD5": "3c2b98ed32b0da6cc762a2bfb926968e",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1362,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/jei-colors.ini",
+            "MD5": "2b1d073ff360c11353f0079b7539cb2e",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1430,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/jei-debug.ini",
+            "MD5": "3c1fbda820486d200de6645d6b4dfa08",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 557,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "1f48f1ee6a22052b1966e6d48de178cd",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 320,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "ee9f7f1284e4f8b1582f0f5d29f1d5da",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "bookmarks.json",
+          "name": "bookmarks.json",
+          "type": "File",
+          "artifact": {
+            "size": 580,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/world/server/Minecraft_Server_c8083245/bookmarks.json",
+            "MD5": "5fe8e0106f02e252292c35eff11c5225",
+            "path": "config/jei/world/server/Minecraft_Server_c8083245/bookmarks.json"
+          }
+        },
+        {
+          "id": "lookupHistory.json",
+          "name": "lookupHistory.json",
+          "type": "File",
+          "artifact": {
+            "size": 990,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/jei/world/server/Minecraft_Server_c8083245/lookupHistory.json",
+            "MD5": "0e8369b81b5784e4b5b1d852043d7dda",
+            "path": "config/jei/world/server/Minecraft_Server_c8083245/lookupHistory.json"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "litematica_50.20.204.142_25565.json",
+          "name": "litematica_50.20.204.142_25565.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_50.20.204.142_25565.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/litematica/litematica_50.20.204.142_25565.json"
+          }
+        },
+        {
+          "id": "litematica_50.20.204.142_25565_dim_minecraft_overworld.json",
+          "name": "litematica_50.20.204.142_25565_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_50.20.204.142_25565_dim_minecraft_overworld.json",
+            "MD5": "79d27ab8e9848160cc1684637aaabe35",
+            "path": "config/litematica/litematica_50.20.204.142_25565_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com.json",
+          "name": "litematica_cobblemonmx.com.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/litematica/litematica_cobblemonmx.com.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com_dim_fantasy_n7ugu4oi875myuwo.json",
+          "name": "litematica_cobblemonmx.com_dim_fantasy_n7ugu4oi875myuwo.json",
+          "type": "File",
+          "artifact": {
+            "size": 746,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com_dim_fantasy_n7ugu4oi875myuwo.json",
+            "MD5": "a0783dd41c922b51741da76d7183d93d",
+            "path": "config/litematica/litematica_cobblemonmx.com_dim_fantasy_n7ugu4oi875myuwo.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com_dim_fantasy_vdtyc4ypgfz17049.json",
+          "name": "litematica_cobblemonmx.com_dim_fantasy_vdtyc4ypgfz17049.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com_dim_fantasy_vdtyc4ypgfz17049.json",
+            "MD5": "79d27ab8e9848160cc1684637aaabe35",
+            "path": "config/litematica/litematica_cobblemonmx.com_dim_fantasy_vdtyc4ypgfz17049.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com_dim_minecraft_flat_world.json",
+          "name": "litematica_cobblemonmx.com_dim_minecraft_flat_world.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com_dim_minecraft_flat_world.json",
+            "MD5": "79d27ab8e9848160cc1684637aaabe35",
+            "path": "config/litematica/litematica_cobblemonmx.com_dim_minecraft_flat_world.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com_dim_minecraft_overworld.json",
+          "name": "litematica_cobblemonmx.com_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 746,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com_dim_minecraft_overworld.json",
+            "MD5": "a0783dd41c922b51741da76d7183d93d",
+            "path": "config/litematica/litematica_cobblemonmx.com_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "litematica_cobblemonmx.com_dim_minecraft_safari.json",
+          "name": "litematica_cobblemonmx.com_dim_minecraft_safari.json",
+          "type": "File",
+          "artifact": {
+            "size": 758,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_cobblemonmx.com_dim_minecraft_safari.json",
+            "MD5": "79d27ab8e9848160cc1684637aaabe35",
+            "path": "config/litematica/litematica_cobblemonmx.com_dim_minecraft_safari.json"
+          }
+        },
+        {
+          "id": "litematica_pruebitas.sdlf.fun.json",
+          "name": "litematica_pruebitas.sdlf.fun.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_pruebitas.sdlf.fun.json",
+            "MD5": "909c5fc6e45a9192364c7e32ee776ae1",
+            "path": "config/litematica/litematica_pruebitas.sdlf.fun.json"
+          }
+        },
+        {
+          "id": "litematica_pruebitas.sdlf.fun_dim_minecraft_overworld.json",
+          "name": "litematica_pruebitas.sdlf.fun_dim_minecraft_overworld.json",
+          "type": "File",
+          "artifact": {
+            "size": 746,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica/litematica_pruebitas.sdlf.fun_dim_minecraft_overworld.json",
+            "MD5": "a0783dd41c922b51741da76d7183d93d",
+            "path": "config/litematica/litematica_pruebitas.sdlf.fun_dim_minecraft_overworld.json"
+          }
+        },
+        {
+          "id": "litematica.json",
+          "name": "litematica.json",
+          "type": "File",
+          "artifact": {
+            "size": 10725,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/litematica.json",
+            "MD5": "d55e22e1e4b8f0176c9846af643e1ef2",
+            "path": "config/litematica.json"
+          }
+        },
+        {
+          "id": "malilib.json",
+          "name": "malilib.json",
+          "type": "File",
+          "artifact": {
+            "size": 675,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/malilib.json",
+            "MD5": "ad6e3f6e9b8b2e1a86b89ec2f91943eb",
+            "path": "config/malilib.json"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 572,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/mega_showdown/config.json",
+            "MD5": "bd55b2a288ec14312f554696e58bcfd7",
+            "path": "config/mega_showdown/config.json"
+          }
+        },
+        {
+          "id": "midnightlib.json",
+          "name": "midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/midnightlib.json",
+            "MD5": "5d33d36208b50f3a0951695c2e806d98",
+            "path": "config/midnightlib.json"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4106,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/modernfix-mixins.properties",
+            "MD5": "30605c7c60a7d7c51f4c0eb3db723ddb",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 840,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/modmenu.json",
+            "MD5": "6f801fc101c146e1c993f05544858c34",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "more_cobblemon_tweaks.json",
+          "name": "more_cobblemon_tweaks.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/more_cobblemon_tweaks.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/more_cobblemon_tweaks.json"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "necronomicon.json5",
+          "name": "necronomicon.json5",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/necronomicon.json5",
+            "MD5": "f5d72523e51844112485d6c21b8d51c3",
+            "path": "config/necronomicon.json5"
+          }
+        },
+        {
+          "id": "main.json",
+          "name": "main.json",
+          "type": "File",
+          "artifact": {
+            "size": 1224,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/main.json",
+            "MD5": "4513643eeee510192347ad0a06e159c4",
+            "path": "config/simpletms/main.json"
+          }
+        },
+        {
+          "id": "default_tm_moves.json",
+          "name": "default_tm_moves.json",
+          "type": "File",
+          "artifact": {
+            "size": 30177,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/moves/default_tm_moves.json",
+            "MD5": "3ef6b194e9062abace6adb73f70deea2",
+            "path": "config/simpletms/moves/default_tm_moves.json"
+          }
+        },
+        {
+          "id": "default_tr_moves.json",
+          "name": "default_tr_moves.json",
+          "type": "File",
+          "artifact": {
+            "size": 30177,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/moves/default_tr_moves.json",
+            "MD5": "3ef6b194e9062abace6adb73f70deea2",
+            "path": "config/simpletms/moves/default_tr_moves.json"
+          }
+        },
+        {
+          "id": "excluded_moves_from_blank_learning.json",
+          "name": "excluded_moves_from_blank_learning.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/moves/excluded_moves_from_blank_learning.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/simpletms/moves/excluded_moves_from_blank_learning.json"
+          }
+        },
+        {
+          "id": "excluded_moves_from_pokemon_drops.json",
+          "name": "excluded_moves_from_pokemon_drops.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/moves/excluded_moves_from_pokemon_drops.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/simpletms/moves/excluded_moves_from_pokemon_drops.json"
+          }
+        },
+        {
+          "id": "excluded_moves_from_tmtr_learning.json",
+          "name": "excluded_moves_from_tmtr_learning.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/simpletms/moves/excluded_moves_from_tmtr_learning.json",
+            "MD5": "d751713988987e9331980363e24189ce",
+            "path": "config/simpletms/moves/excluded_moves_from_tmtr_learning.json"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "f60b68bebcfbc57f2e9148ff27fae4f8",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 679,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/sodium-options.json",
+            "MD5": "ff2e57d64eb5446ab0d69e1279f496df",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 62,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/transition.json",
+            "MD5": "939cbb1d75f242d47e2aa1a9d536a3e7",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 47,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/trender.json",
+            "MD5": "c449ad0a8d190858ec253ed1bc75e05d",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 132,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "b691aecdcbb6d890ea30b769c051773f",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 98,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/username-cache.json",
+            "MD5": "ed133f813aeda45e4e25c0cbafb67af8",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5044,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "8f7181e57e57fb189ee57c9c2dd15b57",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2442,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "58f3239883b366bdd0073d72ff343f8e",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/lib/client.cfg",
+            "MD5": "dd7d24d2b991f7648671c16d0a74c265",
+            "path": "config/xaero/lib/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/lib/common.cfg",
+            "MD5": "e085e122e32132e1fa73ac927f7ece81",
+            "path": "config/xaero/lib/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/lib/profiles/default.cfg",
+            "MD5": "e6a2491cfa99c4163942c19eb7b4c489",
+            "path": "config/xaero/lib/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/lib/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/lib/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 235,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/client.cfg",
+            "MD5": "7a8d5e6353c7471f6002052f1fbd71bb",
+            "path": "config/xaero/minimap/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/common.cfg",
+            "MD5": "48d56532be92f58e976a2d1753abdd35",
+            "path": "config/xaero/minimap/common.cfg"
+          }
+        },
+        {
+          "id": "default_radar_categories_client.json",
+          "name": "default_radar_categories_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/default_radar_categories_client.json",
+            "MD5": "9c08ddf57ca870f128b7671da8fbd0f7",
+            "path": "config/xaero/minimap/default_radar_categories_client.json"
+          }
+        },
+        {
+          "id": "default_radar_categories_server.json",
+          "name": "default_radar_categories_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 4597,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/default_radar_categories_server.json",
+            "MD5": "7ffe568a308241b93166af2d45ce79c7",
+            "path": "config/xaero/minimap/default_radar_categories_server.json"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3753,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/profiles/default.cfg",
+            "MD5": "7e99bad70927f6cbd293f0dcc8da85b4",
+            "path": "config/xaero/minimap/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg.json",
+          "name": "default.cfg.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+            "MD5": "093585ba321e8e8a3b24c0d994312424",
+            "path": "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+          }
+        },
+        {
+          "id": "default.cfg.txt",
+          "name": "default.cfg.txt",
+          "type": "File",
+          "artifact": {
+            "size": 684,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+            "MD5": "64d98932063f0be723920fbdb1de1268",
+            "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/minimap/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/minimap/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 466,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/world-map/client.cfg",
+            "MD5": "b5d4c155d1c2212ad7f51b89ca67fd80",
+            "path": "config/xaero/world-map/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/world-map/common.cfg",
+            "MD5": "b5ddb993fe4200e02fec18254463b2c2",
+            "path": "config/xaero/world-map/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1379,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/world-map/profiles/default.cfg",
+            "MD5": "f4151e7df2284ff2ab24bef0ca2365c2",
+            "path": "config/xaero/world-map/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaero/world-map/server_profiles/default.cfg",
+            "MD5": "a7ba1c4e531ad6afe1fa89e86f7dfd6f",
+            "path": "config/xaero/world-map/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "xaerohud.txt",
+          "name": "xaerohud.txt",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaerohud.txt",
+            "MD5": "2f87c54b0b2e85e6a5031171284d6f31",
+            "path": "config/xaerohud.txt"
+          }
+        },
+        {
+          "id": "xaeropatreon.txt",
+          "name": "xaeropatreon.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/xaeropatreon.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/xaeropatreon.txt"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/yacl.json5",
+            "MD5": "9378f7cef65c5208431350700cf83a11",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "zoomify.json",
+          "name": "zoomify.json",
+          "type": "File",
+          "artifact": {
+            "size": 708,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/config/zoomify.json",
+            "MD5": "df36a9c5c341b2efb36fb3a60800d0cb",
+            "path": "config/zoomify.json"
+          }
+        },
+        {
+          "id": "E19 Cobblemon Minimap Icons.zip",
+          "name": "E19 Cobblemon Minimap Icons.zip",
+          "type": "File",
+          "artifact": {
+            "size": 19398814,
+            "url": "https://www.dropbox.com/scl/fo/lynzwpuk2n2sulg87j87h/servers/cobblemonmx-1.21.1/files/resourcepacks/E19%20Cobblemon%20Minimap%20Icons.zip",
+            "MD5": "790d4b235650a8c637cd59dea859a273",
+            "path": "resourcepacks/E19 Cobblemon Minimap Icons.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
